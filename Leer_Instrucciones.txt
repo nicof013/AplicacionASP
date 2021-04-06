@@ -1,0 +1,6 @@
+Para que al clonar el proyecto, funcione sin problemas.
+
+Al clonar:
+_ Establecer el "Inicio.aspx" como pagina de inicio
+_ Correr los scripts de creacion de base y tablas en el orden en que estan.
+_ Los scripts de Stored Procedures deben correrse individualmente
