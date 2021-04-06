@@ -4,7 +4,7 @@
         <div class="container margenSuperior">
             <div class="row align-items-center justify-content-center">
                 <div class="col-6">
-                    <h3>Listado de Mensajes</h3>
+                    <h4>Listado de Mensajes</h4>
                     <asp:GridView ID="gvMensajes" runat="server" CssClass="table table-primary table-bordered table-hover"></asp:GridView> 
                     <br />
                     <asp:Label ID="lblFiltroMensajes" runat="server" Text="Filtro por mail"></asp:Label>
