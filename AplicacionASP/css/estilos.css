@@ -1,0 +1,19 @@
+﻿.labels {    
+    display: block;
+}
+
+.botones{
+    display:block;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.cajasTexto{
+    display:block;
+    margin-bottom:1.5em;
+    margin-top:0.25em;
+}
+
+.margenSuperior{
+    margin-top:2em;
+}

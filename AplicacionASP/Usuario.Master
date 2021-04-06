@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="AplicacionASP.Usuario" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        
+        <div class="navbar navbar-dark bg-dark navbar-fixed-top">
+            <div class="container justify-content-center">                
+                 <div class="col-6">
+                     <a class="navbar-brand" href="UsuarioInicio.aspx">Informacion Personal</a>
+                     <a class="navbar-brand" href="UsuarioVerUsuarios.aspx">Ver Usuarios</a>
+                     <a class="navbar-brand" href="UsuarioVerMensajes.aspx">Ver Mensajes</a>
+                 </div>                
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación de Muestra ASP.NET</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
